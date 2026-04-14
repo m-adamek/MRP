@@ -8,18 +8,18 @@ from logic import full_mrp
 popyt = []
 
 
-while True:
-    x = input("Podaj popyt (enter = stop): ")
-    if x == "":
-        break
-    popyt.append(int(x))
+# while True:
+#     x = input("Podaj popyt (enter = stop): ")
+#     if x == "":
+#         break
+#     popyt.append(int(x))
 
 
-try:
-  wielkość_partii_ghp = int(input("Podaj wielkość partii GHP: "))
-  na_stanie = int(input("Podaj ile jest na stanie: "))
-except:
-  print("Podano wartość nieliczbową")
+# try:
+#   wielkość_partii_ghp = int(input("Podaj wielkość partii GHP: "))
+#   na_stanie = int(input("Podaj ile jest na stanie: "))
+# except:
+#   print("Podano wartość nieliczbową")
 
 
 # przykładowe dane bez wpisywania ręczengo (zakomentuj to co u góry ^)

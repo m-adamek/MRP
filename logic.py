@@ -89,7 +89,7 @@ def full_mrp(popyt, zapasy, czasy, partie):
 
     # obudowa
     mrp_obudowa = mrp(
-        parent_orders,                     #idk jak to przetłumaczyć i czy warto xD
+        parent_orders,                     
         zapasy["obudowa"],
         czasy["obudowa"],
         partie["obudowa"]
